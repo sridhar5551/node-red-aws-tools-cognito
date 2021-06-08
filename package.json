@@ -1,13 +1,13 @@
 {
   "name": "node-red-aws-tools-cognito",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The aim of this project is create a set of nodes for Node Red to use with AWS",
   "dependencies": {
     "aws-sdk": "^2.124.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sridhar5551/node-red-aws-tools.git"
+    "url": "https://github.com/sridhar5551/node-red-aws-tools-cognito.git"
   },
   "license": "MIT",
   "keywords": [
@@ -22,7 +22,7 @@
     }
   },
   "author": {
-    "name": "Sridhar",
+    "name": "sridhar551",
     "email": "sridhar.tanda260@gmail.com"
   }
 }
