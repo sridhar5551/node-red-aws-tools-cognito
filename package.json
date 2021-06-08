@@ -1,30 +1,28 @@
 {
-  "name": "node-red-aws-tools",
-  "version": "0.0.3",
+  "name": "node-red-aws-tools-cognito",
+  "version": "0.0.1",
   "description": "The aim of this project is create a set of nodes for Node Red to use with AWS",
   "dependencies": {
     "aws-sdk": "^2.124.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nlfsoftware/node-red-aws-tools.git"
+    "url": "https://github.com/sridhar5551/node-red-aws-tools.git"
   },
   "license": "MIT",
   "keywords": [
     "node-red",
     "aws",
-    "cognito",
-    "ses"
+    "cognito"
   ],
   "node-red": {
     "nodes": {
       "amazon cognito": "cognito.js",
-      "amazon ses": "ses.js",
       "config": "config.js"
     }
   },
   "author": {
-    "name": "NLF Software",
-    "email": "webmaster@nlfsoftware.com"
+    "name": "Sridhar",
+    "email": "sridhar.tanda260@gmail.com"
   }
 }

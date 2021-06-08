@@ -44,7 +44,7 @@ module.exports = function(RED) {
                 node.status({fill:"blue",shape:"dot",text:"listUsers"});
                 var params = {
                     UserPoolId: '' + this.userPoolId,
-                    AttributesToGet: [],
+                    AttributesToGet: ["family_name", "email"],
                     Limit: 60
                 };
                 cognitoidentityserviceprovider.listUsers(params, node.sendMsg);
