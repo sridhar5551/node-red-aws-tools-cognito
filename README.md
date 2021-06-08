@@ -4,7 +4,6 @@ Node Red AWS Tools Cognito
 The aim of this project is create a set of nodes for <a href="https://nodered.org/" target="_new">Node Red</a> to use with <a href="https://aws.amazon.com/" target="_new">AWS</a>
 
 
-[![NPM](https://nodei.co/npm/node-red-aws-tools.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-red-aws-tools-cognito/)
 
 
 Acknowledgements
@@ -28,7 +27,7 @@ In progress...
 Please install in the root directory of Node - RED as follows.
  
 ```sh
-$ npm install node-red-aws-tools-cognito
+$ npm install node-red-contrib-aws-tools-cognito
 ```
 
 
